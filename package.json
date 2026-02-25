@@ -1,0 +1,24 @@
+{
+  "name": "flutter-bot-v2",
+  "version": "3.0.0",
+  "description": "Flutter Build Bot with GitHub ZIP Downloader",
+  "main": "build.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node build.js",
+    "pm2": "pm2 start build.js --name flutter-bot --max-memory-restart 512M"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "@octokit/rest": "^19.0.13",
+    "axios": "^1.7.2",
+    "adm-zip": "^0.5.10",
+    "fs-extra": "^11.2.0",
+    "extract-zip": "^2.0.1",
+    "tar": "^6.2.1",
+    "tmp": "^0.2.3",
+    "unique-string": "^3.0.0"
+  },
+  "author": "Aanzapi",
+  "license": "MIT"
+}
