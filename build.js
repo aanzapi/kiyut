@@ -36,7 +36,7 @@ const MEMORY_CONFIG = {
 // GitHub Configuration
 const GITHUB_TOKEN = "your_github_personal_access_token"; // GANTI INI!
 const GITHUB_OWNER = "aanzapi";
-const GITHUB_REPO = "bot";
+const GITHUB_REPO = "wee";
 const GITHUB_RELEASE_PREFIX = "build";
 
 // Buat folder
